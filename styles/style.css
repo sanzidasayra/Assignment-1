@@ -185,3 +185,108 @@
     margin-left: 160px;
     margin-right: 160px;
   }
+
+  .card-2-heading{
+    font-size: 40px;
+  }
+
+  .card-2-description{
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    
+  }
+
+  .card-2-box{
+    height: 325px;
+    width: 410px;
+
+  }
+
+  .box1{
+    background-color: #DAEFFD;
+    border-radius: 10px;
+  }
+
+  .box2{
+    background-color: #C6E4D6;
+    border-radius: 10px;
+  }
+
+  .box3{
+    background-color: #F7EBCF;
+    border-radius: 10px;
+  }
+
+  .btn-card-2-box1{
+    height: 41px;
+    width: 122px;
+    background-color: #5490F5;
+    color: #FFFFFF;
+    margin-left: 25px;
+    border: 1px solid #5490F5;
+    border-radius: 5px;
+  }
+
+  .btn-card-2-box2{
+    height: 41px;
+    width: 122px;
+    background-color: #09A15C;
+    color: #FFFFFF;
+    margin-left: 25px;
+    border: 1px solid #09A15C;
+    border-radius: 5px;
+  }
+
+  .btn-card-2-box3{
+    height: 41px;
+    width: 122px;
+    background-color: #FFC239;
+    color: #FFFFFF;
+    margin-left: 25px;
+    border: 1px solid #FFC239;
+    border-radius: 5px;
+  }
+
+  .card-2{
+    display: flex;
+     justify-content: space-between;
+     margin-left: 160px;
+     margin-right: 160px;
+     margin-bottom: 32px;
+     
+   }
+
+   .d-yunus-des{
+    font-size: 16px;
+    margin-top: 48px;
+   }
+
+   .d-yunus{
+    font-size: 20px;
+    margin-top: 12px;
+   }
+
+   .d-yunus-sub-des{
+    font-size: 16px;
+   }
+
+   .yunus{
+        background-image: url('../assets/quote-bg.png');
+        background-repeat: no-repeat;
+        background-position: 10px 20px;
+        height: auto;
+        width: auto;
+        margin-left: 160px;
+        margin-right: 160px;
+        border: 1px solid lightgray;
+        background-color: white;   
+        margin-bottom: 100px;   
+        border-radius: 20px;  
+   }
+
+   .yunus-body {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+   }
