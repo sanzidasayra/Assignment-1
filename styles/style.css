@@ -59,6 +59,10 @@
   
 /* nav styles */
 
+body {
+    background-color: #F1F1F3;
+}
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -289,4 +293,172 @@
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 48px;
+   }
+
+   .News{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 32px;
+   }
+
+   .news-sec-title{
+    font-size: 40px;
+    margin-top: 80px;
+   }
+
+   .news-sec-des{
+    font-size: 16;
+    margin-top: 24px;
+   }
+
+   .News-card-sec{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    background-color: white;
+   }
+
+   
+
+   .satelite-img{
+    margin-top: 48px;
+    margin-left: 48px;
+    margin-bottom: 48px; 
+    border-radius: 15px;
+   }
+
+   .satelite-img-reverse{
+    margin-top: 48px;
+    margin-right: 48px;
+    margin-bottom: 48px; 
+    border-radius: 15px;
+   }
+
+   .News-card-sec-title{
+    font-size: 32px;
+    margin-bottom: 12px;
+   }
+
+
+
+   .jazira-img{
+    margin-bottom: 12px;
+   }
+
+   .News-card-sec-des{
+    margin-top: 12px;
+    font-size: 16px;
+    margin-bottom: 32px;
+   }
+
+   .btn-news{
+    height: 48px;
+    width: 139px;
+    background-color: #006A50;
+    color: white;
+    border: 1px solid #006A50;
+    border-radius: 7px;
+   }
+
+   .setelite-des{
+    margin-top: 56px;
+    margin-left: 32px;
+    margin-bottom: 56px;
+    margin-right: 48px;
+   }
+
+   .setelite-des-reverse{
+    margin-top: 56px;
+    margin-left: 48px;
+    margin-bottom: 56px;
+    margin-right: 48px;
+   }
+
+   .dateandtime {
+    display: flex;
+    gap: 12px;
+   }
+
+   .donate-title{
+        font-size: 40px;
+        margin-top: 80px;
+        margin-bottom: 24px;
+        text-align: center;
+   }
+
+   .donate-heading{
+    margin-bottom: 32px;
+   }
+
+   .donate-des{
+    text-align: center;
+   }
+
+   .donate-btn{
+    padding: 30px 40px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 40px;
+    gap: 24px;
+   }
+
+   .donate-btn2{
+    padding: 30px 40px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: #C6E4D6;
+    font-size: 40px;
+   }
+
+   .donate-text{
+        height: 64px;
+        width: 1032px;
+        background-color: white;
+   }
+
+   .Donate{
+    margin-left: 160px;
+    margin-right: 160px;
+   }
+
+
+   .donate-btnP{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
+   }
+
+   .amount-container{
+    display: flex;
+    justify-content: center;
+    
+   }
+
+   .input-txt{
+    height: 64px;
+    width: 1032px;
+    text-align: center;
+    border: 1px solid lightgray;
+   }
+
+   .dt-btn{
+       height: 56px;
+       width: 151px;
+       margin-top: 32px;
+       border: 1px solid #006A50;
+       background-color: #006A50;
+       color: white;
+       border-radius: 7px;
+       margin-bottom: 80px;
+   }
+
+   .donate-button{
+    display: flex;
+    justify-content: center;
    }
