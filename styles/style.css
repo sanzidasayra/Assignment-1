@@ -65,6 +65,10 @@
    
 }
 
+.nav-title{
+    font-size: 32px;
+}
+
   /*btn styles */
 
   .btn{
@@ -76,6 +80,7 @@
     margin-top: 24px;
     margin-bottom: 24px;
     margin-right: 160px;
+    font-size: 18px;
   }
 
   .nav-title{
@@ -130,18 +135,22 @@
   /* card styles */
 
   .card-title{
+    font-size: 40px;
     margin-top: 80px;
     margin-bottom: 32px;
     margin-left: 160px;
+    
   }
 .card-1{
-    background-color: #FFFFFF;
+    background-color: white;
     border: 1px solid lightgray;
-    border-radius: 5px;
+    border-radius: 7px;
+    box-shadow: 5px solid lightgrey;
 }
   .card-box-1{
     height: 244px;
-    width: 302px;
+    width: 340px;
+    box-shadow: 5px solid lightgrey;
   }
 
   .card-img{
@@ -153,5 +162,26 @@
   .card-description{
     margin-right: 24px;
     margin-bottom: 24px;
+    padding-left: 24px;
     
+  }
+
+  .card{
+   display: flex;
+    justify-content: space-around;
+    padding-left: 130PX;
+    padding-right: 130PX;
+    
+  }
+
+  .card-heading{
+    padding-left: 24px;
+    margin-bottom: 12px;
+  }
+
+  .card-title-2{
+    margin-top: 80px;
+    margin-bottom: 24px;
+    margin-left: 160px;
+    margin-right: 160px;
   }
